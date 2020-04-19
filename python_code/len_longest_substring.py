@@ -20,13 +20,13 @@ class Solution:
                 unique.add(s[rt])
                 rt += 1
                 max_l = max(max_l, rt-lt)
-                print(f'rt {rt}, max_l {max_l}')
-                print('set' ,unique)
+                #print(f'rt {rt}, max_l {max_l}')
+                #print('set' ,unique)
             else:
                 unique.remove(s[lt])
                 lt += 1
-                print(f'lt {lt}, max_l {max_l}')
-                print('set 2', unique)
+                #print(f'lt {lt}, max_l {max_l}')
+                #print('set 2', unique)
                 
         
         return max_l
